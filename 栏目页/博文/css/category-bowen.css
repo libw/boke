@@ -1,0 +1,189 @@
+header,body,ul,li{
+    margin: 0;padding:0;
+
+}
+img,a{
+    display: block;
+    text-decoration: none;
+}
+.navbar{
+    border-radius: 0;
+}
+.bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.jpg");
+    background-size: cover;
+}
+.bg>img{
+    width: 100%;
+}
+.page-header{
+    float: left;
+}
+.section-b-items>.list-group{
+    margin-top: 25px;
+}
+.section-title{
+    overflow: hidden;
+}
+.page-header{
+    position: relative;
+    margin-top: 0;
+    z-index: 99;
+    color: #fff;
+}
+.page-header>h2>small{
+    color: #f2dede;
+}
+.section-title>nav{
+    float: right;
+    margin-top: 30px;
+
+}
+.section-bottom{
+    overflow: hidden;
+}
+.section-bottom>.row{
+    overflow: hidden;
+    margin: 0;
+    height: auto;
+}
+.section-b-content{
+
+    background-color: #f6f6f6;
+    height: 500px;
+    float: left;
+}
+.section-b-items{
+
+    background-color: #f2f2f2;
+
+    float: left;
+    padding-top:20px
+}
+.section-b-items{
+    text-align: center;
+}
+.list-group-item{
+    text-align: left;
+
+}
+.list-group-item>a{
+    color:#000;
+
+}
+.list-group>a{
+    cursor:pointer;
+}
+.list-group>li>a{
+    display: inline-block;
+}
+.section-b-items>h4{
+    text-align: left;
+}
+.section-b-content{
+    padding-top: 10px;
+    overflow: hidden;
+    height: auto;
+}
+h3>a{
+    display: inline-block;
+}
+h4>a{
+    display: inline-block;
+}
+
+.btn-primary>span{
+    margin-left: 10px;
+}
+.w-color{
+    background-color: #fff;
+    color: #000;
+}
+.section-b-content>ul{
+    padding: 0;
+    padding-top: 15px;list-style: none;
+    padding-bottom: 23px;
+    margin: 0 auto;
+}
+.section-b-content>ul>li{
+    border-bottom:1px dashed #dadada;
+
+}
+.section-b-content>ul>li>a{
+    /*display:inline-block;*/
+}
+.section-b-content>ul>li:hover{
+    background-color: #f3f3f3;
+}
+.section-b-content>ul>li>a{
+    height: 40px;line-height: 40px;
+    font-size: 14px;padding-left: 5px;
+    color: #000;
+}
+.section-b-content>ul>li>a:hover{
+    color:  #3d97dc;
+}
+.section-b-content>ul>li>a>span:last-child{
+    float: right;margin-right: 15px;
+    font-size: 10px;
+}
+
+
+footer{
+    position: relative;
+    z-index: 555;
+    margin-top: 30px;
+}
+footer>h5{
+    color: #fff;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+
+    .navbar-form .form-control{
+        width: 100px;
+    }
+
+
+}
+@media screen and (max-width:768px){
+
+
+    .section-b-items{
+        display: none;
+    }
+    .navbar-nav > li>a{
+        height: 50px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:990px){
+    header .form-group{
+        width: 100px;
+    }
+    .navbar-form .form-control{
+        width: 100px;
+    }
+
+    .navbar-nav{
+        margin: 0;
+
+    }
+    .navbar-nav > li{
+        float: left;
+
+    }
+
+
+
+}
+@media screen and (min-width:992px){
+
+    .navbar-form .form-control{
+        width: auto;
+    }
+
+}
